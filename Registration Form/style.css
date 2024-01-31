@@ -1,0 +1,79 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(27, 27, 47);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+a {
+  color: white;
+}
+
+button {
+  margin: 40px auto;
+  width: 60%;
+  height: 40px;
+  background-color: rgba(89, 89, 97, 0.692);
+  border: solid white 1px;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  width: 40%;
+
+  margin: auto;
+
+  /* background-color: rgba(240, 248, 255, 0.062); */
+}
+
+.inputTxt {
+  width: 100%;
+  height: 25px;
+  background-color: rgb(19, 19, 36);
+  border: none;
+  margin: 10px 0px;
+  color: white;
+}
+
+.inputSelect {
+  width: 100%;
+  height: 25px;
+  border: none;
+  margin: 10px 0px;
+}
+
+.inputTxtArea {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(19, 19, 36);
+  border: none;
+  margin: 10px 0px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 0;
+  height: 3px;
+  border: none;
+  background-color: rgb(70, 70, 95);
+}
+
+.account,
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
