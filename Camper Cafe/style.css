@@ -1,0 +1,65 @@
+body {
+  background-image: url("https://venezianocoffee.com.au/cdn/shop/articles/How_to_Choose_the_Best_Coffee_Beans_for_Espresso_1600x.png?v=1685620458");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+hr {
+  border: none;
+  background-color: brown;
+  height: 5px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: rgb(250, 206, 125);
+  max-width: 700px;
+}
+
+.menu {
+  margin: 1px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 55%;
+}
+
+.price {
+  margin: 1px;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 25%;
+}
+
+.item p {
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* footer */

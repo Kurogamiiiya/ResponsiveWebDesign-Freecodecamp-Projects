@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>See more <a href="">cat photos</a> in our gallery.</p>
+        <img
+          src="https://static.printler.com/cache/c/f/0/f/b/c/cf0fbc2d0feb021110b69c3d513144bfb3bb17d7.jpg"
+          alt=""
+          width="300px"
+          height="300px"
+        />
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>bakso</li>
+        </ul>
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Indonesian_bakso%2C_with_noodle_and_bean_sprouts%2C_April_2018_%2803%29.jpg/1200px-Indonesian_bakso%2C_with_noodle_and_bean_sprouts%2C_April_2018_%2803%29.jpg"
+            alt=""
+            width="300px"
+            height="300px"
+          />
+          <figcaption>cats <i>love</i> bakso.</figcaption>
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>water</li>
+          <li>fire</li>
+          <li>other cars</li>
+          <img
+            src="https://i.ytimg.com/vi/Q6Nsvrnnug8/maxresdefault.jpg"
+            alt=""
+            width="300"
+            height="300"
+          />
+          <p>Cars <b>hate</b> other cars.</p>
+        </ol>
+      </section>
+      <section>
+        <h2>Car Form</h2>
+        <form action="">
+          <p>Is your car an indoor or outdoor car?</p>
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+
+            <label for="cars">
+              <input
+                name="indoor-outdoor"
+                value="indoor"
+                id="indoor"
+                type="radio"
+              />
+              Indoor</label
+            >
+            <label for="cars">
+              <input
+                name="indoor-outdoor"
+                value="outdoor"
+                id="outdoor"
+                type="radio"
+              />
+              Outdoor
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+
+            <input
+              type="checkbox"
+              value="loving"
+              id="loving"
+              name="personality"
+            />
+            <label for="loving">Loving</label>
+            <input type="checkbox" value="lazy" id="lazy" name="personality" />
+            <label for="lazy">Lazy</label>
+            <input
+              type="checkbox"
+              value="energetic"
+              id="energetic"
+              name="personality"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
+
+          <input
+            type="text"
+            name="catphotourl"
+            placeholder="cat photo URL"
+            required
+          />
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

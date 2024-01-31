@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+}
+
+.marker {
+  width: 15%;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.marker.one {
+  background: linear-gradient(
+    rgb(124, 64, 0),
+    rgb(212, 27, 14),
+    rgb(64, 27, 27)
+  );
+  box-shadow: 0 0 20px rgba(83, 24, 24, 0.8);
+}
+
+.marker.two {
+  background: linear-gradient(#328f00, #2adf11, #157315);
+  box-shadow: 0 0 20px #3b7e20cc;
+}
+
+.marker.three {
+  background: linear-gradient(
+    hsl(239, 63%, 20%),
+    hsl(255, 95%, 40%),
+    hsl(255, 70%, 25%)
+  );
+  box-shadow: 0 0 20px hsla(223, 59%, 31%, 0.8);
+}
+
+.sleeve {
+  width: 60%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap {
+  width: 25%;
+  height: 100%;
+}
+
+.cap,
+.sleeve {
+  display: inline-block;
+}
