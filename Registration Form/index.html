@@ -9,91 +9,97 @@
   <body>
     <h1>Registration Form</h1>
     <p>Please fill out this form with the required information</p>
-    <br />
 
-    <div class="container">
-      <form action="">
-        <label for="firstname">Enter Your First Name:</label> <br />
-        <input class="inputTxt" name="firstname" id="firstname" type="text" />
+    <form action="" method="post">
+      <fieldset>
+        <label for="firstname"
+          >Enter Your First Name:<input
+            name="firstname"
+            id="firstname"
+            type="text"
+        /></label>
 
-        <label for="lastname">Enter Your last Name:</label> <br />
-        <input class="inputTxt" name="lastname" id="lastname" type="text" />
+        <label for="lastname"
+          >Enter Your last Name:<input
+            name="lastname"
+            id="lastname"
+            type="text"
+        /></label>
 
-        <label for="email">Enter Your Email:</label> <br />
-        <input class="inputTxt" name="email" id="email" type="email" />
+        <label for="email"
+          >Enter Your Email:<input name="email" id="email" type="email"
+        /></label>
 
-        <label for="password">Create a New Password:</label> <br />
-        <input class="inputTxt" name="password" id="password" type="password" />
+        <label for="password"
+          >Create a New Password:
+          <input
+            name="password"
+            id="password"
+            type="password"
+            pattern="[a-z0-5]{8,}"
+        /></label>
+      </fieldset>
 
-        <hr />
+      <fieldset>
+        <legend for="accountType">Account type (required)</legend>
 
-        <div class="account">
-          <label for="accountType">Account type (required)</label>
-          <br />
-          <label for="personal">
-            <input name="accountType" id="personal" type="radio" required />
-            Personal
-          </label>
+        <label for="personal">
+          <input
+            class="inline"
+            name="accountType"
+            id="personal"
+            type="radio"
+            checked
+          />
+          Personal
+        </label>
 
-          <label for="business">
-            <input name="accountType" id="business" type="radio" required />
-            Business
-          </label>
+        <label for="business">
+          <input class="inline" name="accountType" id="business" type="radio" />
+          Business
+        </label>
+      </fieldset>
 
-          <br />
-        </div>
-
-        <hr style="margin-bottom: 40px" />
-
+      <fieldset>
         <label for="imgFile">Upload a profile picture:</label>
-        <input name="imgFile id="imgFile" class="inputTxt" type="file"
-        accept="image/*" />
+        <input name="imgFile" id="imgFile" type="file" accept="image/*" />
 
         <label for="age">Input your age (years):</label>
-        <input
-          name="age"
-          id="age"
-          class="inputTxt"
-          type="number"
-          min="13"
-          max="120"
-        />
+        <input name="age" id="age" type="number" min="13" max="120" />
 
         <label for="about">How did you hear about us?</label>
-        <select class="inputSelect" name="about" id="about">
+        <select name="about" id="about">
           <option value="">(select one)</option>
           <option value="1">freeCodeCamp News</option>
-          <option value="2">freeCodeCamp Youtube Channel</option>
+          <option value="2">freeCodeCamp YouTube Channel</option>
           <option value="3">freeCodeCamp Forum</option>
           <option value="4">other</option>
         </select>
 
         <label for="bio">Provide a bio:</label>
         <textarea
-          class="inputTxtArea"
           name="bio"
           id="bio"
           cols="30"
-          rows="10"
+          rows="3"
           placeholder="I like coding on the beach..."
         ></textarea>
+      </fieldset>
 
-        <label for="termsAndConditions"
-          ><input
-            type="checkbox"
-            name="termsAndConditions"
-            id="termsAndConditions"
-            required
-          />
-          I accept the <a href="">terms and conditions</a></label
-        >
+      <label for="termsAndConditions"
+        ><input
+          class="inline"
+          type="checkbox"
+          name="termsAndConditions"
+          id="termsAndConditions"
+          required
+        />
+        I accept the <a href="">terms and conditions</a></label
+      >
 
-        <br />
-
-        <div class="btn">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
   </body>
 </html>
