@@ -16,39 +16,92 @@
         >Name<input
           placeholder="Enter your name"
           type="text"
-          type="name"
+          id="name"
+          name="name"
           required
       /></label>
+
       <label id="email-label" for="email"
         >Email<input
           placeholder="Enter your email"
           type="email"
           id="email"
+          name="email"
           required
       /></label>
+
       <label id="number-label" for="number"
         >Number<input
           placeholder="Enter your age"
           type="number"
           id="number"
+          name="number"
           min="10"
           max="100"
       /></label>
 
-      <select id="dropdown">
-        <option value="">1</option>
-        <option value="">2</option>
-      </select>
+      <label for="dropdown">
+        Which option best describes your current role?
+        <select name="role" id="dropdown">
+          <option disabled selected>Select current Role</option>
+          <option value="student">Student</option>
+          <option value="unemployment">Unemployment</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
 
-      <input type="radio" name="1" id="" />
-      <input type="radio" name="1" id="" />
+      <div class="review-group">
+        <legend for="review">Rate This Website</legend>
+        <label for="great">
+          <input type="radio" name="review" id="great" value="great" /> Great
+        </label>
+        <label for="very-good">
+          <input type="radio" name="review" id="very-good" value="very-good" />
+          Very Good
+        </label>
+        <label for="good">
+          <input type="radio" name="review" id="good" value="good" /> Good
+        </label>
+      </div>
 
-      <input type="checkbox" value="" />
-      <input type="checkbox" value="" />
+      <div class="projects-group">
+        <legend>
+          What would you like to see improved? (Check all that apply)
+        </legend>
+        <label for="fe-projects">
+          <input name="projects" type="checkbox" value="fe-projects" />
+          Front-end Projects
+        </label>
+        <label for="be-projects">
+          <input name="projects" type="checkbox" value="be-projects" /> Back-end
+          Projects
+        </label>
+        <label for="data-visual">
+          <input name="projects" type="checkbox" value="data-visual" /> Data
+          Visualization
+        </label>
+        <label for="videos">
+          <input name="projects" type="checkbox" value="videos" /> Videos
+        </label>
+        <label for="mobile-app">
+          <input name="projects" type="checkbox" value="mobile-app" /> Mobile
+          Applications
+        </label>
+      </div>
 
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <label for="comment"
+        >Any comments or suggestions?
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="4"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </label>
 
-      <button id="submit" type="submit">Submit</button>
+      <input id="submit" type="submit" />
     </form>
   </body>
 </html>
