@@ -1,0 +1,137 @@
+.canvas {
+  width: 400px;
+  height: 600px;
+  background-color: brown;
+  border-radius: 100px;
+  border: solid black 15px;
+  margin: 0 auto;
+  filter: blur(3px);
+  z-index: 2;
+}
+
+.frame {
+  border: solid 50px black;
+  width: 600px;
+  padding: 80px 50px;
+  margin: 30px auto;
+}
+
+.one {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  background-color: white;
+  transform: translate(130%, 184%);
+  border-radius: 50px;
+  border-left: solid black 15px;
+  border-right: solid black 10px;
+  border-top: solid black 15px;
+}
+
+.two {
+  position: absolute;
+  width: 270px;
+  height: 150px;
+  background-color: rgb(42, 228, 241);
+  transform: translate(60%, 50%);
+  border-radius: 150px;
+  border-left: solid black 15px;
+  border-right: solid black 10px;
+  border-top: solid black 15px;
+  z-index: 2;
+}
+
+.three {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  background-color: brown;
+  transform: translate(0%, -15%);
+  border-radius: 250px;
+  border-top: solid black 15px;
+}
+
+.four {
+  position: absolute;
+  width: 140px;
+  height: 150px;
+  background-color: brown;
+  transform: translate(14%, 270%);
+  border-radius: 50px;
+  border-bottom: solid black 15px;
+  border-right: solid black 15px;
+  z-index: 2;
+}
+
+.five {
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  background-color: white;
+  transform: translate(-10%, 1500%);
+  border-radius: 360px;
+  z-index: 1;
+  border: solid white 10px;
+}
+
+.six {
+  position: absolute;
+  width: 130px;
+  height: 200px;
+  background-color: brown;
+  transform: translate(175%, 180%);
+  border-radius: 60px;
+  border-bottom: solid black 15px;
+  border-left: solid black 15px;
+  z-index: 2;
+}
+
+.seven {
+  position: absolute;
+  width: 180px;
+  height: 80px;
+  background-color: white;
+  transform: translate(85%, 704%);
+  border-radius: 360px;
+}
+
+.eight {
+  position: absolute;
+  width: 100px;
+  height: 300px;
+  background-color: brown;
+  transform: translate(-100%, 30%);
+  border-radius: 50px;
+  border: solid black 15px;
+  z-index: -2;
+}
+
+.nine {
+  position: absolute;
+  width: 140px;
+  height: 150px;
+  background-color: brown;
+  transform: translate(14%, 270%);
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.ten {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  background-color: brown;
+  transform: translate(265%, 190%);
+  border-radius: 60px;
+  z-index: 2;
+}
+
+.eleven {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: rgb(238, 244, 245);
+  transform: translate(200%, 105%);
+  border-radius: 150px;
+  z-index: 2;
+}
