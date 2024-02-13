@@ -1,0 +1,59 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Helvetica,
+    sans-serif;
+  background-color: black;
+}
+
+main {
+  background-image: url("https://e0.pxfuel.com/wallpapers/116/304/desktop-wallpaper-batik-for-android.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(240, 248, 255, 0.856);
+  border-radius: 10px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+figure {
+  background-image: url("https://img.freepik.com/premium-vector/epic-realistic-indonesia-flag-red-white-background_369481-3178.jpg?w=826");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 30px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+#image {
+  display: block;
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: justify;
+  letter-spacing: 0.4px;
+}
+
+#tribute-info li {
+  margin-bottom: 10px;
+}
+
+#tribute-info ul {
+  margin: 0;
+}
+
+.biography-title {
+  margin: 0 0 10px 0;
+}
