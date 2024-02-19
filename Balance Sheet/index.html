@@ -8,106 +8,148 @@
   </head>
   <body>
     <main>
-      <section class="header">
-        <h1 class="large">Balance Sheet</h1>
-        <h4>CorpWhatever</h4>
-      </section>
-
-      <div class="divider">
-        <p class="bold">2019</p>
-        <p class="bold">2020</p>
-        <p class="bold">2021</p>
-      </div>
-
-      <section id="Assets">
-        <p class="title">Assets</p>
-        <div class="price">
-          <h4 class="bold">Cash</h4>
-          <span>
-            <p>$25</p>
-            <p>$30</p>
-            <p>$28</p>
+      <section>
+        <h1>
+          <span class="flex">
+            <span>AcmeWidgetCorp</span>
+            <span>Balance Sheet</span>
           </span>
+        </h1>
+        <div id="years" aria-hidden="true">
+          <span class="year">2019</span>
+          <span class="year">2020</span>
+          <span class="year">2021</span>
         </div>
-        <p class="italic">This is the cash we currently have on hand.</p>
-        <div class="price">
-          <h4 class="bold">Checking</h4>
-          <span>
-            <p>$54</p>
-            <p>$56</p>
-            <p>$53</p>
-          </span>
-        </div>
-        <p class="italic">Our primary transactional account.</p>
-        <div class="price">
-          <h4 class="bold">Savings</h4>
-          <span>
-            <p>$500</p>
-            <p>$650</p>
-            <p>$728</p>
-          </span>
-        </div>
-        <p class="italic">Funds set aside for emergencies.</p>
-
-        <div class="total">
-          <h4 class="bold">Total</h4>
-          <span>
-            <p>$579</p>
-            <p>$736</p>
-            <p>$809</p>
-          </span>
-        </div>
-      </section>
-
-      <section id="Liabilities">
-        <p class="title">Liabilities</p>
-        <div class="price">
-          <h4 class="bold">Loans</h4>
-          <span>
-            <p>$500</p>
-            <p>$250</p>
-            <p>$0</p>
-          </span>
-        </div>
-        <p class="italic">The outstanding balance on our startup loan.</p>
-        <div class="price">
-          <h4 class="bold">Expenses</h4>
-          <span>
-            <p>$200</p>
-            <p>$300</p>
-            <p>$400</p>
-          </span>
-        </div>
-        <p class="italic">Annual anticipated expenses, such as payroll.</p>
-        <div class="price">
-          <h4 class="bold">Credit</h4>
-          <span>
-            <p>$50</p>
-            <p>$50</p>
-            <p>$75</p>
-          </span>
-        </div>
-        <p class="italic">The outstanding balance on our credit card.</p>
-
-        <div class="total">
-          <h4 class="bold">Total</h4>
-          <span>
-            <p>$750</p>
-            <p>$600</p>
-            <p>$475</p>
-          </span>
-        </div>
-      </section>
-
-      <section id="net-worth">
-        <p class="title">Net Worth</p>
-        <div class="total end">
-          <h4 class="bold">Total</h4>
-          <span>
-            <p>$-171</p>
-            <p>$136</p>
-            <p>$334</p>
-          </span>
+        <div class="table-wrap">
+          <table>
+            <caption>
+              Assets
+            </caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th><span class="sr-only year">2019</span></th>
+                <th><span class="sr-only year">2020</span></th>
+                <th class="current"><span class="sr-only year">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data">
+                <th>
+                  Cash
+                  <span class="description"
+                    >This is the cash we currently have on hand.</span
+                  >
+                </th>
+                <td>$25</td>
+                <td>$30</td>
+                <td class="current">$28</td>
+              </tr>
+              <tr class="data">
+                <th>
+                  Checking
+                  <span class="description"
+                    >Our primary transactional account.</span
+                  >
+                </th>
+                <td>$54</td>
+                <td>$56</td>
+                <td class="current">$53</td>
+              </tr>
+              <tr class="data">
+                <th>
+                  Savings
+                  <span class="description"
+                    >Funds set aside for emergencies.</span
+                  >
+                </th>
+                <td>$500</td>
+                <td>$650</td>
+                <td class="current">$728</td>
+              </tr>
+              <tr class="total">
+                <th>Total <span class="sr-only">Assets</span></th>
+                <td>$579</td>
+                <td>$736</td>
+                <td class="current">$809</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>
+              Liabilities
+            </caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th><span class="sr-only">2019</span></th>
+                <th><span class="sr-only">2020</span></th>
+                <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data">
+                <th>
+                  Loans
+                  <span class="description"
+                    >The outstanding balance on our startup loan.</span
+                  >
+                </th>
+                <td>$500</td>
+                <td>$250</td>
+                <td class="current">$0</td>
+              </tr>
+              <tr class="data">
+                <th>
+                  Expenses
+                  <span class="description"
+                    >Annual anticipated expenses, such as payroll.</span
+                  >
+                </th>
+                <td>$200</td>
+                <td>$300</td>
+                <td class="current">$400</td>
+              </tr>
+              <tr class="data">
+                <th>
+                  Credit
+                  <span class="description"
+                    >The outstanding balance on our credit card.</span
+                  >
+                </th>
+                <td>$50</td>
+                <td>$50</td>
+                <td class="current">$75</td>
+              </tr>
+              <tr class="total">
+                <th>Total <span class="sr-only">Liabilities</span></th>
+                <td>$750</td>
+                <td>$600</td>
+                <td class="current">$475</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>
+              Net Worth
+            </caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th><span class="sr-only">2019</span></th>
+                <th><span class="sr-only">2020</span></th>
+                <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="total">
+                <th>Total <span class="sr-only">Net Worth</span></th>
+                <td>$-171</td>
+                <td>$136</td>
+                <td class="current">$334</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
     </main>
