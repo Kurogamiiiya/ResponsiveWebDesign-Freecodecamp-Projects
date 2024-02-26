@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>HTML Documentation</header>
+      <ul>
+        <h2>Tutorials</h2>
+        <li>
+          <a class="nav-link" href="#Introduction_to_HTML"
+            >Introduction to HTML</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Getting_started_with_HTML"
+            >Getting started with HTML</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Metadata_in_HTML">Metadata in HTML</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#HTML_text_fundamental"
+            >HTML text fundamental</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Creating_hyperlinks"
+            >Creating hyperlinks</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Advanced_text_formatting"
+            >Advanced text formatting</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Document_and_website_structure"
+            >Document and website structure</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction_to_HTML" class="main-section">
+        <header>Introduction to HTML</header>
+        <p>
+          Welcome to the fascinating world of web development! If you're eager
+          to learn how to create web pages, you've come to the right place.
+          HTML, or HyperText Markup Language, is the fundamental building block
+          of the World Wide Web. In this introductory guide, we'll explore what
+          HTML is, why it's important, and how you can start using it to create
+          your own web pages.
+        </p>
+        <h2>What is HTML?</h2>
+        <p>
+          HTML (HyperText Markup Language) is a markup language that tells web
+          browsers how to structure the web pages you visit. It can be as
+          complicated or as simple as the web developer wants it to be. HTML
+          consists of a series of elements, which you use to enclose, wrap, or
+          mark up different parts of content to make it appear or act in a
+          certain way. The enclosing tags can make content into a hyperlink to
+          connect to another page, italicize words, and so on.
+        </p>
+        <h2>Why Learn HTML?</h2>
+        <p>
+          Learning HTML is the first step towards becoming a web developer. With
+          HTML knowledge, you can create and design your own websites,
+          understand how web pages are structured, and communicate effectively
+          with other developers. HTML is the backbone of web development and
+          serves as the foundation for learning other technologies such as CSS
+          and JavaScript.
+        </p>
+      </section>
+      <section id="Getting_started_with_HTML" class="main-section">
+        <header>Getting started with HTML</header>
+        <p>
+          Embarking on the journey of web development can be both exhilarating
+          and daunting. Understanding where to begin is crucial, and
+          fortunately, HTML (HyperText Markup Language) provides an excellent
+          starting point. In this guide, we'll walk through the basics of HTML,
+          equipping you with the foundational knowledge to start crafting your
+          own web pages.
+        </p>
+        <h2>Setting Up Your Environment</h2>
+        <p>
+          Getting started with HTML requires minimal setup. All you need is a
+          text editor and a web browser. Popular text editors like Visual Studio
+          Code, Sublime Text, or even simple options like Notepad (Windows) or
+          TextEdit (Mac) will suffice. Once you've chosen your editor, create a
+          new file and save it with a .html extension.
+        </p>
+        <h2>Basic Structure of an HTML Document</h2>
+        <p>An HTML document follows a simple structure:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Your Page Title&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;!-- Your content goes here --&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <p>Let's break it down :</p>
+        <ul>
+          <li>
+            &lt;!DOCTYPE html&gt; : This declaration tells the browser that the
+            document is written in HTML5, the latest version of HTML.
+          </li>
+          <li>
+            &lt;html&gt; : The root element of the HTML document, encapsulating
+            all other elements.
+          </li>
+          <li>
+            &lt;head&gt; : Contains meta-information about the document, such as
+            the title.
+          </li>
+          <li>
+            &lt;title&gt; : Sets the title of the web page, displayed in the
+            browser's title bar or tab.
+          </li>
+          <li>
+            &lt;body&gt; : Contains the content of the web page that will be
+            displayed in the browser window.
+          </li>
+        </ul>
+        <h2>Creating Content with HTML Elements</h2>
+        <p>
+          Let's create a simple HTML document that displays the classic "Hello
+          World!" message:
+        </p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Your Page Title&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Hello World!&lt;h1&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <p>
+          Save this code in your text editor, then open the file in a web
+          browser to see the result.
+        </p>
+        <p>
+          Congratulation! You've now taken your first steps into the world of
+          web development by learning the basics of HTML. This is just the
+          beginning of your journey. As you continue to explore, remember to
+          practice regularly and experiment with different HTML elements. Stay
+          curious, and don't hesitate to delve deeper into the vast resources
+          available for learning HTML and beyond. Happy coding!
+        </p>
+      </section>
+      <section id="Metadata_in_HTML" class="main-section">
+        <header>Metadata in HTML</header>
+        <p>
+          At its core, metadata encapsulates crucial information about your web
+          page, enriching its context beyond the visible content. It encompasses
+          details such as the page title, description, authorship, character
+          encoding, viewport configuration, and more. While invisible to the
+          user, metadata profoundly influences how search engines index your
+          site, how social media platforms display shared links, and how
+          assistive technologies interpret your content.
+        </p>
+        <h2>Head element</h2>
+        <p>
+          In the vast landscape of web development, understanding the
+          intricacies of HTML goes beyond merely structuring content. Metadata,
+          along with the `&lt;head>` element, serves as the silent force that
+          shapes how your web pages are perceived and understood by both users
+          and machines. In this guide, we'll delve into the significance of
+          metadata, explore the versatile `&lt;head>` element, and uncover their
+          pivotal roles in crafting compelling web experiences.
+        </p>
+        <p>head element in HTML example:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;--Your Page Metadata--&gt;
+            &lt;/head&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <p>
+          The `&lt;head>` element acts as the control center for metadata and
+          other essential elements that govern the behavior and presentation of
+          your web page. It serves as the gateway to defining document
+          properties, importing external resources, specifying character
+          encoding, and providing instructions for browsers and search engines.
+        </p>
+        <h2>Page Title</h2>
+        <p>
+          The page title stands as the gateway to your web page's identity in
+          both the browser and search engine realms. It serves as the primary
+          identifier for your page, prominently displayed in browser tabs and
+          search engine results. Crafting an effective page title involves
+          striking a balance between conciseness and descriptiveness,
+          encapsulating the essence of your content within a limited character
+          count. It's crucial to include relevant keywords to improve search
+          engine visibility while ensuring that the title accurately reflects
+          the page's content to users.
+        </p>
+        <p>title element in HTML example:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Your Page Title&lt;/title&gt;
+            &lt;/head&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <h2>Document Character Encoding</h2>
+        <p>
+          Character encoding ensures that text displayed on your web pages is
+          interpreted correctly across various devices and locales. UTF-8, the
+          most commonly used character encoding, supports a wide range of
+          characters and symbols, making it ideal for internationalization and
+          multilingual content. Including the &lt;meta charset="UTF-8"&gt; tag
+          within the &lt;head> section of your HTML document ensures consistent
+          text rendering and prevents issues such as character corruption or
+          misinterpretation.
+        </p>
+        <p>meta charset element in HTML example:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+            &lt;/head&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <h2>Page Description</h2>
+        <p>
+          The page description serves as a concise summary of your web page's
+          content, providing users with a preview of what to expect before they
+          click through to your site. This metadata element plays a crucial role
+          in search engine result snippets, influencing click-through rates and
+          user engagement. Crafting an informative and compelling description
+          that accurately reflects the content of your page can significantly
+          enhance its visibility and relevance in search engine results pages
+          (SERPs).
+        </p>
+        <p>meta page description element in HTML example:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta name="description" content="Brief description of your web page"&gt;
+            &lt;/head&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <h2>Keywords</h2>
+        <p>
+          While the importance of meta keywords has diminished in the realm of
+          modern SEO, they still hold value in providing additional context to
+          search engines about the primary topics covered on your web page.
+          Although search engines like Google no longer rely heavily on meta
+          keywords for ranking purposes, it's still advisable to include
+          relevant keywords that reflect the content of your page. However,
+          avoid overstuffing or using irrelevant keywords, as this can have a
+          detrimental effect on your site's SEO.
+        </p>
+        <p>meta keywords element in HTML example:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta name="keywords" content="keyword1, keyword2, keyword3"&gt;
+            &lt;/head&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <h2>Author</h2>
+        <p>
+          The author metadata element identifies the individual or entity
+          responsible for creating the content of the web page. While not
+          directly visible to users, including authorship information adds
+          credibility and transparency to your content, particularly in academic
+          or journalistic contexts. It also facilitates proper attribution and
+          acknowledgment of intellectual property rights. Including the author
+          metadata element is a best practice for fostering trust and
+          accountability within your online presence.
+        </p>
+        <p>meta author element in HTML example:</p>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+            &lt;meta name="author" content="Your Name"&gt;
+            &lt;/head&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+      </section>
+      <section id="HTML_text_fundamental" class="main-section">
+        <header>HTML text fundamental</header>
+        <p>
+          In the realm of web development, mastering HTML text fundamentals is
+          akin to laying a solid foundation for building engaging and accessible
+          web content. Understanding the intricacies of text elements in HTML
+          not only ensures proper structure and formatting but also facilitates
+          effective communication with your audience. In this comprehensive
+          guide, we'll delve into the essential HTML text elements, exploring
+          their functionality, usage, and best practices for implementation.
+        </p>
+        <h2>Some text element in HTML :</h2>
+        <ul>
+          <li><a href="#Paragraphs">Paragraphs (&lt;p>)</a></li>
+          <li><a href="#Headings">Headings (&lt;h1> to &lt;h6>)</a></li>
+          <li>
+            <a href="#Bold_and_Italic_Text"
+              >Bold and Italic Text (&lt;strong> and &lt;em>)</a
+            >
+          </li>
+          <li>
+            <a href="#Lists">Lists (Ordered &lt;ol> and Unordered &lt;ul>)</a>
+          </li>
+        </ul>
+        <h2 id="Paragraphs">Paragraphs</h2>
+        <p>
+          element is the cornerstone of text content in HTML, used to define
+          paragraphs of text. It represents a block-level element that signifies
+          a distinct section of content, typically separated by vertical
+          whitespace. Paragraphs are ideal for presenting cohesive blocks of
+          text, such as introductory paragraphs, article content, or descriptive
+          passages.
+        </p>
+        <code>
+          <pre>
+        &lt;p>This is a paragraph of text.&lt;/p>
+        &lt;p>This is another paragraph.&lt;/p></pre
+          >
+        </code>
+        <h2 id="Headings">Headings</h2>
+        <p>
+          Headings play a crucial role in structuring and organizing content
+          hierarchically. HTML offers six levels of headings, ranging from
+          &lt;h1> (the highest level) to &lt;h6> (the lowest level). Headings
+          are used to denote different sections of a document, with &lt;h1>
+          typically representing the main heading or title, and subsequent
+          levels representing subheadings of decreasing importance.
+        </p>
+        <code>
+          <pre>
+        &lt;h1>Main Heading&lt;/h1>
+        &lt;h2>Subheading&lt;/h2>
+        &lt;h3>Sub-subheading&lt;/h3></pre
+          >
+        </code>
+        <h2 id="Bold_and_Italic_Text">Bold and Italic Text</h2>
+        <p>
+          The &lt;strong> and &lt;em> elements are used to emphasize text within
+          a document. &lt;strong> denotes strong importance or seriousness,
+          typically rendered as bold text, while &lt;em> denotes emphasis, often
+          rendered as italic text. These elements not only enhance readability
+          but also convey semantic meaning to assistive technologies and search
+          engines.
+        </p>
+        <code>
+          <pre>
+        &lt;p>This is &lt;strong>strong&lt;/strong> text.&lt;/p>
+        &lt;p>This is &lt;em>emphasized&lt;/em> text.&lt;/p></pre
+          >
+        </code>
+        <h2 id="Lists">Lists</h2>
+        <p>
+          Lists are invaluable for organizing and presenting information in a
+          structured format. HTML offers two types of lists: ordered lists
+          (&lt;ol>) and unordered lists (&lt;ul>). Ordered lists use numerical
+          or alphabetical numbering, while unordered lists use bullet points.
+          List items (&lt;li>) are nested within &lt;ol> or &lt;ul> elements to
+          denote individual list items.
+        </p>
+        <code>
+          <pre>
+        &lt;ul>
+            &lt;li>Item 1&lt;/li>
+            &lt;li>Item 2&lt;/li>
+            &lt;li>Item 3&lt;/li>
+        &lt;/ul>
+        
+        &lt;ol>
+            &lt;li>First item&lt;/li>
+            &lt;li>Second item&lt;/li>
+            &lt;li>Third item&lt;/li>
+        &lt;/ol></pre
+          >
+        </code>
+      </section>
+      <section id="Creating_hyperlinks" class="main-section">
+        <header>Creating hyperlinks</header>
+        <p>
+          Hyperlinks serve as the backbone of navigation on the web, enabling
+          users to seamlessly navigate between different web pages and
+          resources. Understanding how to create and customize hyperlinks in
+          HTML is essential for building intuitive and user-friendly web
+          experiences. In this comprehensive guide, we'll explore the
+          intricacies of hyperlinks in HTML, covering their syntax, attributes,
+          target options, accessibility considerations, and best practices for
+          implementation.
+        </p>
+        <h2>Creating Basic Hyperlinks</h2>
+        <p>
+          The &lt;a> (anchor) element is used to create hyperlinks in HTML. It
+          accepts the href (hypertext reference) attribute, which specifies the
+          URL of the destination web page or resource. To create a basic
+          hyperlink, simply wrap the text or content you want to link with an
+          &lt;a> element and specify the href attribute with the desired URL.
+        </p>
+        <code>
+          <pre>
+       &lt;a href="https://example.com">Visit Example&lt;/a></pre
+          >
+        </code>
+        <h2>Linking to Different Protocols and Resources</h2>
+        <p>
+          Hyperlinks can point to various types of resources, including web
+          pages, files, email addresses, and telephone numbers. You can specify
+          different protocols in the href attribute to link to different types
+          of resources. For example, to create an email link, use the mailto:
+          protocol followed by the email address.
+        </p>
+        <code>
+          <pre>
+        &lt;a href="mailto:info@example.com">Email Us&lt;/a></pre
+          >
+        </code>
+        <h2>Linking to Specific Sections of a Page (Anchor Links)</h2>
+        <p>
+          Anchor links allow users to navigate to specific sections of a web
+          page, often referred to as "deep linking." To create an anchor link,
+          use the id attribute to identify the target section within the page,
+          and then use the href attribute to link to that target using a hash
+          (#) followed by the id value.
+        </p>
+        <code>
+          <pre>
+        &lt;a href="#section-1">Jump to Section 1&lt;/a>
+
+        ...
+
+        &lt;h2 id="section-1">Section 1&lt;/h2>
+        &lt;p>This is the content of Section 1.&lt;/p></pre
+          >
+        </code>
+        <h2>Opening Links in a New Tab or Window</h2>
+        <p>
+          You can control how hyperlinks are opened by using the target
+          attribute. Setting the target attribute to _blank will open the linked
+          page in a new tab or window, providing a seamless browsing experience
+          for users while keeping your website open in the original tab.
+        </p>
+        <code>
+          <pre>
+        &lt;a href="https://example.com" target="_blank">Visit Example (Opens in new tab)&lt;/a></pre
+          >
+        </code>
+        <h2>Accessibility Considerations</h2>
+        <p>
+          When creating hyperlinks, it's essential to consider accessibility to
+          ensure that all users, including those using assistive technologies,
+          can navigate your website effectively. Provide descriptive link text
+          that clearly conveys the purpose or destination of the link, and avoid
+          using generic phrases like "click here" or "read more." Additionally,
+          ensure that the contrast between the link text and its surrounding
+          content is sufficient for easy visibility.
+        </p>
+        <code>
+          <pre>
+        &lt;!-- Good example --&gt;
+        &lt;a href="https://example.com" aria-label="Visit Example"&gt;Visit Example&lt;/a&gt;
+
+        &lt;!-- Bad example: Avoid using generic phrases --&gt;
+        &lt;a href="https://example.com"&gt;Click Here&lt;/a&gt;</pre
+          >
+        </code>
+      </section>
+      <section id="Advanced_text_formatting" class="main-section">
+        <header>Advanced text formatting</header>
+        <p>
+          In the dynamic world of web development, advanced text formatting in
+          HTML offers a myriad of possibilities for enhancing the visual appeal
+          and readability of your web content. From intricate typography to
+          sophisticated styling techniques, mastering advanced text formatting
+          empowers you to create captivating and visually engaging web
+          experiences. In this comprehensive guide, we'll delve into the realm
+          of advanced text formatting in HTML, exploring a range of techniques,
+          elements, and best practices to elevate your web content to new
+          heights.
+        </p>
+        <h2>Using Semantic text element</h2>
+        <p>
+          Semantic markup entails using HTML elements that convey the meaning
+          and structure of your content beyond mere presentation. By leveraging
+          semantic elements, you not only improve accessibility but also
+          facilitate better indexing and comprehension by search engines. Some
+          key semantic elements for text formatting include:
+        </p>
+        <ul>
+          <li><a href="#Strong_Em">&lt;strong> and &lt;em></a></li>
+          <li><a href="#Mark">&lt;mark></a></li>
+          <li><a href="#Sub_Sup">&lt;sub> and &lt;sup></a></li>
+          <li><a href="#Abbr">&lt;abbr></a></li>
+          <li><a href="#Data">&lt;data></a></li>
+        </ul>
+        <h2 id="Strong_Em">&lt;strong> and &lt;em></h2>
+        <p>
+          These elements denote strong importance and emphasis, respectively.
+          They are commonly used for highlighting important or emphasized text
+          within a document.
+        </p>
+        <code>
+          <pre>
+        &lt;p>&lt;strong>This text is important&lt;/strong> and &lt;em>this text is emphasized&lt;/em>.&lt;/p></pre
+          >
+        </code>
+        <h2 id="Mark">&lt;mark></h2>
+        <p>
+          element is used to highlight text for reference or emphasis, often
+          rendered with a yellow background. It is ideal for indicating search
+          terms, keywords, or other notable content within a document.
+        </p>
+        <code>
+          <pre>
+        &lt;p>You can &lt;mark>find&lt;/mark> more information in the W3C documentation.&lt;/p></pre
+          >
+        </code>
+        <h2 id="Sub_Sup">&lt;sub> and &lt;sup></h2>
+        <p>
+          These elements are used for subscript and superscript text,
+          respectively. They are commonly used in mathematical expressions,
+          chemical formulas, footnotes, and citations.
+        </p>
+        <code>
+          <pre>
+        &lt;p>H&lt;sub>2&lt;/sub>O is the chemical formula for water.&lt;/p>
+        &lt;p>The area of a circle is calculated using the formula A = πr&lt;sup>2&lt;/sup>.&lt;/p></pre
+          >
+        </code>
+        <h2 id="Abbr">&lt;abbr></h2>
+        <p>
+          The &lt;abbr> element is used to define an abbreviation or acronym,
+          providing an optional expansion for clarification. This helps users
+          understand the meaning of abbreviated terms within the content.
+        </p>
+        <code>
+          <pre>
+        &lt;p>The &lt;abbr title="World Wide Web Consortium">W3C&lt;/abbr> sets web standards.&lt;/p></pre
+          >
+        </code>
+        <h2 id="Data">&lt;data></h2>
+        <p>
+          The &lt;data> element is used to represent machine-readable data
+          within the document. It can be used to provide additional context or
+          metadata about numerical or statistical values.
+        </p>
+        <code>
+          <pre>
+        &lt;p>The population of &lt;data value="8000000">New York City&lt;/data> is approximately 8 million.&lt;/p></pre
+          >
+        </code>
+      </section>
+
+      <section id="Document_and_website_structure" class="main-section">
+        <header>Document and website structure</header>
+        <p>
+          In the realm of web development, understanding document and website
+          structure in HTML lays the foundation for creating well-organized,
+          accessible, and user-friendly web experiences. HTML, or Hypertext
+          Markup Language, provides a robust set of elements for structuring
+          content within documents and defining the layout of entire websites.
+          In this comprehensive guide, we'll delve into the principles of
+          document and website structure in HTML, covering essential elements,
+          best practices, and techniques for creating cohesive and intuitive web
+          architectures.
+        </p>
+        <h2>Document Structure</h2>
+        <p>
+          HTML documents follow a hierarchical structure composed of several key
+          elements, each serving a specific purpose in organizing and presenting
+          content. Understanding the structure of an HTML document is crucial
+          for creating well-formed and semantically meaningful web pages. The
+          basic structure of an HTML document includes:
+        </p>
+        <ul>
+          <li>
+            &lt;!DOCTYPE html>: Declaration of the document type, specifying
+            that the document is written in HTML5.
+          </li>
+          <li>
+            &lt;html>: The root element of the HTML document, encapsulating all
+            other elements.
+          </li>
+          <li>
+            &lt;head>: Contains metadata and links to external resources such as
+            stylesheets and scripts.
+          </li>
+          <li>
+            &lt;title>: Sets the title of the document, displayed in the
+            browser's title bar or tab.
+          </li>
+          <li>
+            &lt;body>: Contains the main content of the document, including
+            text, images, and other multimedia elements.
+          </li>
+        </ul>
+        <code>
+          <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+          &lt;head&gt;
+              &lt;title&gt;Document Title&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;</pre
+          >
+        </code>
+        <h2>Website Structure</h2>
+        <p>
+          Building upon the document structure, the organization of a website
+          involves dividing content into logical sections and providing
+          navigation between different pages or sections. Key elements for
+          structuring a website include:
+        </p>
+        <ul>
+          <li>
+            &lt;header>: Typically contains branding, navigation menus, and
+            other top-level content.
+          </li>
+          <li>
+            &lt;nav>: Houses navigation links or menus for easy access to
+            different sections of the website.
+          </li>
+          <li>
+            &lt;main>: Encompasses the primary content area of the website, such
+            as articles, blog posts, or product listings.
+          </li>
+          <li>
+            &lt;footer>: Includes information such as copyright notices, contact
+            details, and additional links.
+          </li>
+        </ul>
+        <code>
+          <pre>
+        &lt;body&gt;
+            &lt;header&gt;
+                &lt;!-- Header content goes here --&gt;
+            &lt;/header&gt;
+            &lt;nav&gt;
+                &lt;!-- Navigation menu goes here --&gt;
+             &lt;/nav&gt;
+            &lt;main&gt;
+                &lt;!-- Main content goes here --&gt;
+            &lt;/main&gt;
+            &lt;footer&gt;
+                &lt;!-- Footer content goes here --&gt;
+            &lt;/footer&gt;
+        &lt;/body&gt;</pre
+          >
+        </code>
+        <h2>Semantic HTML5 Elements</h2>
+        <p>
+          HTML5 introduces a set of semantic elements that provide meaningful
+          structure and context to different parts of a webpage. Semantic
+          elements help improve accessibility, search engine optimization, and
+          maintainability of the code. Some commonly used semantic elements
+          include &lt;article>, &lt;section>, &lt;aside>, &lt;header>,
+          &lt;footer>, and &lt;nav>.
+        </p>
+        <code>
+          <pre>
+        &lt;section>
+          &lt;h2>About Us&lt;/h2>
+          &lt;p>Learn more about our company and mission.&lt;/p>
+        &lt;/section>
+        &lt;aside>
+            &lt;h3>Latest Updates&lt;/h3>
+            &lt;ul>
+                &lt;li>News item 1&lt;/li>
+                &lt;li>News item 2&lt;/li>
+            &lt;/ul>
+        &lt;/aside></pre
+          >
+        </code>
+      </section>
+    </main>
+  </body>
+</html>
